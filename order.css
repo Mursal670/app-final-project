@@ -1,0 +1,106 @@
+/* ---------- Body ---------- */
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    background-color: #0f172a;
+    display: flex; 
+    justify-content: flex-end;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, #ff4d6d, #7c3aed);
+    padding: 10px;
+    width: 120px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #7c3aed, #ff4d6d);
+    color: #e5e7eb;
+}
+
+/* ---------- Header ---------- */
+header {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 40px;
+    text-shadow: 2px 2px 8px black;
+}
+
+/* ---------- Order Container ---------- */
+.Container {
+    width: 90%;
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 25px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(255,77,109,0.6);
+}
+
+/* ---------- Form Elements ---------- */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* ---------- Labels ---------- */
+h1, p, label {
+    text-align: center;
+}
+
+/* ---------- Submit Button ---------- */
+.link {
+    display: block;
+    width: 180px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #ff4d6d, #7c3aed);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link:hover {
+    opacity: 0.85;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid black;
+}

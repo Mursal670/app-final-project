@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Merchandise Order | Mursal Nabizada</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Order.css">
+</head>
+
+<body>
+    <!-- ---------- Navigation ---------- -->
+    <nav>
+        <a href="Gallery.html">Gallery</a>
+        <a href="About.html">About</a>
+        <a href="Order.html">Order</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <header><a href="index.html">Mursal Nabizada Anime World</a></header>
+
+    <!-- ---------- Order Form Container ---------- -->
+    <div class="Container">
+        <h1 id="title">🎌 Anime Merchandise Order Form 🎌</h1>
+        <p id="description">Please submit this form to order your favorite anime merchandise!</p>
+
+        <!-- ---------- Full Name ---------- -->
+        <label for="full-name">Full Name</label>
+        <input id="full-name" type="text" placeholder="Mursal Nabizada" name="full-name" required>
+
+        <!-- ---------- Email ---------- -->
+        <label for="email">Email Address</label>
+        <input id="email" type="email" placeholder="mursal@gmail.com" name="email" required>
+
+        <!-- ---------- Quantity ---------- -->
+        <label for="quantity">How many items would you like to order?</label>
+        <input id="quantity" type="number" name="quantity" min="0" max="50">
+
+        <!-- ---------- City Dropdown ---------- -->
+        <label for="city">What city do you live in?</label>
+        <select id="city" name="city">
+            <option value="kabul">Kabul</option>
+            <option value="bamyan">Bamyan</option>
+            <option value="mazar">Mazar</option>
+            <option value="norestan">Norestan</option>
+        </select>
+
+        <!-- ---------- Merchandise Type ---------- -->
+        <label>What type of anime merchandise would you like?</label>
+        <div>
+            <input id="figures" type="radio" name="merch-type" value="figures">
+            <label for="figures">Figures</label>
+
+            <input id="posters" type="radio" name="merch-type" value="posters">
+            <label for="posters">Posters</label>
+
+            <input id="keychains" type="radio" name="merch-type" value="keychains">
+            <label for="keychains">Keychains</label>
+        </div>
+
+        <!-- ---------- Comments ---------- -->
+        <label for="comments">Additional Comments</label>
+        <textarea id="comments" name="comments" placeholder="Write your message here..."></textarea>
+
+        <!-- ---------- Submit Button ---------- -->
+        <button class="link" type="submit">Submit</button>
+
+        <div class="link">
+            <a href="contact.html">Contact Page</a>
+        </div>
+    </div>
+
+    <!-- ---------- Footer ---------- -->
+    <footer>
+        <p>Made By Mursal Nabizada</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+/* ---------- Body ---------- */
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: "Maiden Orange", serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    background-color: #0f172a;
+    display: flex; 
+    justify-content: flex-end;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #ff4d6d, #7c3aed);
+    padding: 10px;
+    width: 120px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #7c3aed, #ff4d6d);
+    color: #e5e7eb;
+}
+
+/* ---------- Header ---------- */
+
+header {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 8px rgb(19, 16, 16);
+    border-bottom: 3px solid #441cf5;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 0px;
+    color: #441cf5;
+}
+/* ---------- Main Title ---------- */
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 15px #f02222;
+}
+
+/* ---------- Product Container / Video ---------- */
+.prodact-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.prodact-container img {
+    width: 400px;
+    max-width: 90%;
+    border-radius: 20px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.video video {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+/* ---------- Link Button ---------- */
+.link {
+    display: block;
+    width: 180px;
+    margin: 30px auto;
+    background: linear-gradient(135deg, #ff4d6d, #7c3aed);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link:hover {
+    opacity: 0.85;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid black;
+}

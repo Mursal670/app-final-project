@@ -1,0 +1,143 @@
+/* ---------- Body ---------- */
+body {
+    background: linear-gradient(to right, #141e30, #243b55); /* رنگ CSS دوم */
+    font-family: Arial, sans-serif; /* ساختار CSS اول */
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    background-color: #0f172a; /* CSS دوم */
+    display: flex; 
+    justify-content: flex-end; /* ساختار CSS اول */
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* CSS دوم */
+    background: linear-gradient(135deg, #ff4d6d, #7c3aed); /* CSS دوم */
+    padding: 10px;
+    width: 120px; /* ساختار CSS اول */
+    margin: 5px;
+    text-align: center;
+    border-radius: 25px; /* CSS دوم */
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #7c3aed, #ff4d6d); /* CSS دوم */
+    color: #e5e7eb; /* CSS دوم */
+}
+
+/* ---------- Header ---------- */
+
+header {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 8px rgb(19, 16, 16);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+header a{
+    text-decoration: none;
+    color: #441cf5;
+    border-bottom: 3px solid #441cf5;
+    padding-bottom: 2px;
+}
+/* ---------- Gallery Row ---------- */
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* ساختار CSS اول */
+    margin: 100px auto; /* ساختار CSS اول */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* CSS دوم */
+    border-radius: 25px; /* CSS دوم */
+    max-width: 700px; /* بهینه */
+    border: 2px solid black;
+}
+
+/* ---------- Individual Gallery Card ---------- */
+.gallery-img {
+    width: 200px; /* ساختار CSS اول */
+    height: 200px; /* ساختار CSS اول */
+    overflow: hidden;
+    border-radius: 20px; /* CSS دوم */
+    position: relative;
+    border: 2px solid #7c3aed; /* CSS دوم */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* CSS دوم */
+}
+
+.gallery-img:hover {
+    transform: scale(1.1); /* CSS دوم */
+    box-shadow: 0 0 20px rgba(255, 77, 109, 0.8); /* CSS دوم */
+}
+
+.gallery-img img {
+    width: 100%; /* ساختار CSS اول */
+    height: 100%; /* ساختار CSS اول */
+    object-fit: cover; /* ساختار CSS اول */
+    border-radius: 50%; /* ساختار CSS اول */
+}
+
+/* ---------- Anime Name Overlay ---------- */
+.gallery-img-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.7); /* CSS دوم */
+    color: #fff; /* CSS دوم */
+    font-size: 18px; /* ساختار CSS اول */
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0; /* CSS دوم */
+    transition: opacity 0.3s ease;
+    border-bottom-left-radius: 20px; /* CSS دوم */
+    border-bottom-right-radius: 20px; /* CSS دوم */
+}
+
+.gallery-img:hover .gallery-img-name {
+    opacity: 1; /* CSS دوم */
+}
+
+/* ---------- Video Section ---------- */
+.video {
+    margin: 50px auto; /* ساختار CSS اول */
+    text-align: center;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #0f172a; /* CSS دوم */
+    color: white; /* CSS دوم */
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid black;
+}
+
+/* ---------- Order Link Button ---------- */
+.link {
+    display: block;
+    width: 180px; /* CSS دوم */
+    margin: 30px auto;
+    background: linear-gradient(135deg, #ff4d6d, #7c3aed); /* CSS دوم */
+    color: white; /* CSS دوم */
+    border-radius: 20px; /* CSS دوم */
+    text-align: center;
+    font-size: 18px; 
+    padding: 12px 0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link:hover {
+    opacity: 0.85; /* CSS دوم */
+}

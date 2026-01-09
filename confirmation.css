@@ -1,0 +1,90 @@
+/* ---------- Navigation ---------- */
+nav {
+    background-color: #0f172a;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, #ff4d6d, #7c3aed);
+    padding: 10px;
+    width: 110px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #7c3aed, #ff4d6d);
+    color: #e5e7eb;
+}
+
+/* ---------- Body ---------- */
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: Arial, sans-serif;
+}
+
+/* ---------- Header ---------- */
+header {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+/* ---------- Container ---------- */
+.container {
+    width: 500px;
+    margin: 80px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #441cf5;
+}
+
+.container p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* ---------- Link Button ---------- */
+.link a {
+    display: inline-block;
+    width: 180px;
+    background: linear-gradient(135deg, #ff4d6d, #7c3aed);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link a:hover {
+    opacity: 0.85;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid black;
+}
