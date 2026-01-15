@@ -3,6 +3,7 @@ body {
     background: linear-gradient(to right, #141e30, #243b55);
     font-family: Arial, sans-serif;
     color: white;
+    padding:0 15px;
 }
 
 /* ---------- Navigation ---------- */
@@ -49,6 +50,7 @@ header {
     background: rgba(0,0,0,0.7);
     border-radius: 25px;
     box-shadow: 0 0 20px rgba(255,77,109,0.6);
+    padding-right:50px;
 }
 
 /* ---------- Form Elements ---------- */
@@ -104,3 +106,4 @@ footer {
     padding: 20px;
     border-top: 2px solid black;
 }
+
